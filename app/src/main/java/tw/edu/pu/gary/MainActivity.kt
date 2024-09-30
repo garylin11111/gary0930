@@ -18,9 +18,10 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        fun Roll(v: View){
-            var txv: TextView = findViewById(R.id.txv)
+        fun Roll(v: View) {
+            val txv: TextView = findViewById(R.id.txv)
             txv.text = (1..6).random().toString()
 
+        }
     }
 }
